@@ -44,6 +44,11 @@ matrixmultiply = { version = "0.2.0" }
 serde = { version = "1.0", optional = true }
 rawpointer = { version = "0.2" }
 
+# CUDA stuff
+rustacuda = "0.1"
+rustacuda_derive = "0.1"
+rustacuda_core = "0.1"
+
 [dev-dependencies]
 defmac = "0.2"
 quickcheck = { version = "0.9", default-features = false }
